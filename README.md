@@ -1,14 +1,3 @@
-<!-- # Installation
-
-### Install JSON server
-`npm install -g json-server`
-
-### Start JSON server in watch mode
-`json-server --watch db.json`
-
-### App.js file
-- fetch and display the first movie's details and the list of movies. -->
-
 # Flatdango
 
 Flatdango is a mini web application that allows users to purchase movie tickets from the Flatiron Movie Theater. This project was created as part of a code challenge to demonstrate the ability to build a simple yet functional web application using JavaScript.
@@ -18,7 +7,6 @@ Flatdango is a mini web application that allows users to purchase movie tickets 
 - [Features](#features)
 - [Requirements](#requirements)
 - [Setup](#setup)
-- [Usage](#usage)
 
 ## Features
 
