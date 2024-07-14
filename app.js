@@ -39,6 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
       description.textContent = film.description;
       updateAvailableTickets(film);
   
+      // Reset button text and class
+      buyTicketBtn.textContent = 'Buy Ticket';
+      buyTicketBtn.classList.remove('sold-out');
+  
       buyTicketBtn.onclick = () => {
         if (film.capacity - film.tickets_sold > 0) {
           film.tickets_sold += 1;
