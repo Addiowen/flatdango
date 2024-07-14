@@ -38,3 +38,17 @@ Flatdango is a mini web application that allows users to purchase movie tickets 
    ```bash
    git clone https://github.com/Addiowen/flatdango.git
    cd flatdango
+
+2. **Install JSON server**
+
+    ```bash
+    npm install -g json-server
+
+3. **Start JSON server in watch mode**
+
+    ```bash
+    json-server --watch db.json
+
+4. **Finally**
+    - Start the live server to execute index.html file
+    - The application should be running on port 3000.
